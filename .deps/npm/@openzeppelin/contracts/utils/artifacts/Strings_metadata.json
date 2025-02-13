@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "StringsInsufficientHexLength",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "String operations.",
+			"errors": {
+				"StringsInsufficientHexLength(uint256,uint256)": [
+					{
+						"details": "The `value` string doesn't fit in the specified `length`."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/@openzeppelin/contracts/utils/Strings.sol": "Strings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0x67a2b2ae89fb58296365a5a812a632a6ee362535394a7b6031e12111b1f498e1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d371806a8c2d915e2b96b8ce9379e7ff8cab58abc822137332f8989f9e85e263",
+				"dweb:/ipfs/QmSZRkuVNnGBAWcgjxNUXAhxj1ULGKL2YgAo2wWrJ2fNAo"
+			]
+		},
+		".deps/npm/@openzeppelin/contracts/utils/math/Math.sol": {
+			"keccak256": "0x3c2ebcf13322b0447982e0763851269e9df977261616b98c548aef656cde2cde",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51a50f8345de0874e93ade40fd70cbad49a072e91079b75b4679bb831c84a037",
+				"dweb:/ipfs/QmdGgSJzcPcPmjGuEhQt2avC54H81CBcckkSwSpeK5jXdd"
+			]
+		},
+		".deps/npm/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x8f869b2d076970ca6c502f4a5a31e89d410af3971c4871933a037ad055d6f13a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef0e29cd5bedfe971de1719c106a04423789e8343e29e88efbd00475bf53e8ed",
+				"dweb:/ipfs/QmUs8ayyPBrGEuqe58GBpAoXvf3P8LwNSniR3xn6eLpQit"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Standard signed math utilities missing in the Solidity language.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/@openzeppelin/contracts/utils/math/SignedMath.sol": "SignedMath"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x8f869b2d076970ca6c502f4a5a31e89d410af3971c4871933a037ad055d6f13a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef0e29cd5bedfe971de1719c106a04423789e8343e29e88efbd00475bf53e8ed",
+				"dweb:/ipfs/QmUs8ayyPBrGEuqe58GBpAoXvf3P8LwNSniR3xn6eLpQit"
+			]
+		}
+	},
+	"version": 1
+}
