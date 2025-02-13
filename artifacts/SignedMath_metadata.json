@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Standard signed math utilities missing in the Solidity language.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DynamicNFT_flattened.sol": "SignedMath"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DynamicNFT_flattened.sol": {
+			"keccak256": "0x8881fbec13d8b406d8242a59d53cca68a795c4489f4ff1a7f4b3b719691e04ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0ec49e553e52d782bb10217306c0cdf01de0fb06bdc759bbfd2d3f6db77a83e",
+				"dweb:/ipfs/QmWtmA6TpxVoLDYtHA7dUkh2djimawU8FUWo7ooYGEkepw"
+			]
+		}
+	},
+	"version": 1
+}

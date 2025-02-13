@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -221,19 +216,6 @@
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "_tokenIdCounter",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -311,30 +293,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "tokenURI",
-						"type": "string"
-					}
-				],
-				"name": "mintNFT",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -514,6 +472,7 @@
 			}
 		],
 		"devdoc": {
+			"details": "ERC721 token with storage based token URI management.",
 			"errors": {
 				"ERC721IncorrectOwner(address,uint256,address)": [
 					{
@@ -652,7 +611,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"DynamicNFT_flattened.sol": "DynamicNFT"
+			"DynamicNFT_flattened.sol": "ERC721URIStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
