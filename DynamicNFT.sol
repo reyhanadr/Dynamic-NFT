@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract MintMate is ERC721URIStorage {
+contract DynamicNFT is ERC721URIStorage {
     uint256 public _tokenIdCounter;
 
     constructor() ERC721("Dynamic NFT", "Dynamic NFT Ethereum Sepolia") {}
